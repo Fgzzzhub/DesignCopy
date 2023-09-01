@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@font-face {
+  font-family: "Pop700";
+  src: url(Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Nav";
+  src: url("Poppins-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.containerNav {
+  /* background-color: wheat; */
+  width: 100%;
+  font-family: "Nav";
+}
+
+.rec1 {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 15px;
+}
+
+.rec2 {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 25px;
+  left: 135px;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+}
+
+.Blog {
+  padding: 5px 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+ul li:hover {
+  background-color: #555;
+  border-radius: 10px;
+  transition: 0.8s;
+  color: white;
+}
+
+.section {
+  width: 90;
+  height: 600px;
+  border-radius: 30px;
+  background-color: #0f3d6f;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+  border: 1px solid #0f3d6f;
+}
+
+.judul {
+  width: 600px;
+  height: 300px;
+  /* background-color: rebeccapurple; */
+  margin-left: 100px;
+  border: 2px;
+  /* border-style: hidden; */
+  margin-top: 150px;
+  color: white;
+}
+
+.h {
+  font-family: "Poppins";
+  /* position: relative; */
+  /* top: 25px; */
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: 280px;
+  padding-left: 20px;
+  /* padding-right: 200px; */
+}
+
+.wm {
+  font-family: "Pop700";
+  font-size: 40px;
+  padding-left: 20px;
+  /* padding-right: 20px;  */
+  position: relative;
+  top: -50px;
+}
+.wm1 {
+  font-family: "Pop700";
+  font-size: 40px;
+  padding-left: 20px;
+  /* padding-right: 20px; */
+  position: absolute;
+  top: 340px;
+}
+
+.des {
+  position: absolute;
+  top: 430px;
+  font-family: "Poppins";
+  font-size: 18px;
+  padding-left: 20px;
+}
+.image {
+  width: 200px;
+  height: 250px;
+  background-color: wheat;
+  background-image: url(/PXL_20230505_175521441.jp);
+  position: absolute;
+  top: 250px;
+  right: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  z-index: 1;
+}
+.imageCover {
+  width: 190px;
+  height: 250px;
+  /* background-color: orange; */
+  background-image: url(/PXL_20230505_175521441.jp);
+  position: absolute;
+  top: 260px;
+  right: 185px;
+  border-radius: 10px;
+  border: 4px solid orange;
+}
+
+.Project {
+  /* background-color: aqua; */
+  margin-top: 0px;
+  height: 600px;
+}
+
+.myProject {
+  font-family: "Pop700";
+  font-size: 40px;
+  text-align: center;
+}
+
+.Pjt {
+  font-family: "Poppins";
+  font-size: 20px;
+  text-align: center;
+  padding-top: 0;
+  position: relative;
+  top: -25px;
+}
+
+.containerCard {
+  display: flex;
+  margin-top: 40px;
+}
+
+.card1 {
+  width: 400px;
+  margin-left: 40px;
+  height: 250px;
+  background-color: wheat;
+  border-radius: 15px;
+  box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  background-image: url(jay-zhang-U1I0IoQx3Yo-unsplash.jpg);
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+.card2 {
+  width: 400px;
+  height: 250px;
+  margin-left: 40px;
+  background-color: wheat;
+  border-radius: 15px;
+  box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  background-image: url(michelle-ding-50uD7HzOLW8-unsplash.jpg);
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+.card3 {
+  width: 400px;
+  margin-left: 40px;
+  height: 250px;
+  background-color: wheat;
+  border-radius: 15px;
+  box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -webkit-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 0px 24px 1px rgba(0, 0, 0, 0.69);
+  background-image: url(mohammad-rahmani-jTTDXiNveOs-unsplash.jpg);
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+/* .images1 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.75s;
+} */
+
+.card1:hover {
+  transform: scale(1.15);
+  transition: 0.8s;
+  opacity: 1;
+}
+.card2:hover {
+  transform: scale(1.15);
+  transition: 0.8s;
+  opacity: 1;
+}
+.card3:hover {
+  transform: scale(1.15);
+  transition: 0.8s;
+  opacity: 1;
+}
