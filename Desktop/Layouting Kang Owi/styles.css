@@ -53,25 +53,32 @@ ul li {
   padding: 5px;
   margin-right: 40px;
   cursor: pointer;
-  transition: 0.8s;
+  transition: 0.5s;
+  border-bottom: 2px solid transparent;
+  transition: 1s;
 }
 
 ul li:hover {
-  background-color: #555;
-  border-radius: 10px;
-  transition: 0.8s;
-  color: white;
+  /* background-color: #555; */
+  /* border-radius: 10px; */
+  transition: 0.5s;
+  color: blue;
+  border-bottom: 2px solid blue;
+  position: relative;
+  transition: 1s;
 }
 
 .section {
   width: 90;
   height: 600px;
   border-radius: 30px;
-  background-color: #0f3d6f;
+  background: rgb(21, 96, 179);
+  background: linear-gradient(0deg, rgba(21, 96, 179, 1) 0%, rgba(15, 61, 111, 1) 50%, rgba(21, 96, 179, 1) 100%);
   margin-right: 25px;
   margin-left: 25px;
   margin-top: 10px;
   border: 1px solid #0f3d6f;
+  z-index: 3;
 }
 
 .judul {
@@ -83,6 +90,7 @@ ul li:hover {
   /* border-style: hidden; */
   margin-top: 150px;
   color: white;
+  z-index: 2;
 }
 
 .h {
@@ -94,6 +102,7 @@ ul li:hover {
   font-weight: 280px;
   padding-left: 20px;
   /* padding-right: 200px; */
+  z-index: 999;
 }
 
 .wm {
@@ -103,6 +112,7 @@ ul li:hover {
   /* padding-right: 20px;  */
   position: relative;
   top: -50px;
+  z-index: 7;
 }
 .wm1 {
   font-family: "Pop700";
@@ -111,6 +121,7 @@ ul li:hover {
   /* padding-right: 20px; */
   position: absolute;
   top: 340px;
+  z-index: 7;
 }
 
 .des {
@@ -119,6 +130,7 @@ ul li:hover {
   font-family: "Poppins";
   font-size: 18px;
   padding-left: 20px;
+  z-index: 7;
 }
 .image {
   width: 200px;
@@ -275,7 +287,7 @@ ul li:hover {
   position: absolute;
   left: 600px;
   top: 190px;
-
+  cursor: pointer;
   transition: 0.8s;
 }
 
