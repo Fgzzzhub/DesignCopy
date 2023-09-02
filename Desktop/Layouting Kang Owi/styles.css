@@ -11,6 +11,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 5000px;
 }
 
 .containerNav {
@@ -235,4 +236,60 @@ ul li:hover {
   transform: scale(1.15);
   transition: 0.8s;
   opacity: 1;
+}
+
+.contact {
+  font-family: "Pop700";
+  font-size: 40px;
+  margin-left: 80px;
+  margin-top: 0;
+  position: relative;
+  top: -50px;
+}
+
+.contactDes {
+  font-family: "Poppins";
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  margin-left: 80px;
+}
+
+.kirim {
+  width: 550px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  left: 600px;
+  top: -30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+}
+.kirimBtn {
+  width: 550px;
+  height: 80px;
+  background-color: #1d80f5;
+  border-radius: 10px;
+  position: absolute;
+  left: 600px;
+  top: 190px;
+
+  transition: 0.8s;
+}
+
+.kirimTxt {
+  text-align: center;
+  line-height: 80px;
+  position: relative;
+  top: -17px;
+  font-size: 20px;
+  font-family: "Poppins";
+  color: white;
+}
+
+.kirimBtn:hover {
+  background-color: #0f3d6f;
+  transition: 0.5s;
 }
